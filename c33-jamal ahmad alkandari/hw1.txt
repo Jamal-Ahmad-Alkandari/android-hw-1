@@ -1,0 +1,37 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        
+        
+        Li(15,"جمال أحمد الكندري");
+        
+        
+        
+     }
+     
+     public static void Li (int a , String b){
+         
+         
+         if (a >= 18){
+             for (int i = 1 ; i <=3 ; i++){
+             System.out.print ("مبروك يا ");
+             System.out.print (b);
+             System.out.print (" سوف تحصل على رخصة قيادة");
+             System.out.println();
+             }
+         }
+         
+         else {
+             for (int i = 1 ; i <=3 ; i++){
+             System.out.print ("للأسف يا ");
+             System.out.print (b);
+             System.out.print (" ما زلت صغيراً للحصول على الرخصة");
+             System.out.println();
+                 
+             }
+         }
+         
+     }
+     
+}
